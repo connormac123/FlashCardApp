@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!-- Front of the flashcard -->
+    <TextView
+        android:id="@+id/flashcard_front"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/front_of_the_flashcard2" />
+
+        <!-- Back of the flashcard -->
+    <TextView
+        android:id="@+id/flashcard_back"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity = "center" />
+</LinearLayout>

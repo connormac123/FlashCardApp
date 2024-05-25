@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FlashCardApp</string>
+    <string name="flip">Flip</string>
+    <string name="front_of_the_flashcard">Front of the flashcard</string>
+    <string name="back_of_the_flashcard">Back of the flashcard</string>
+    <string name="front_of_the_flashcard2">Front of the flashcard</string>
+</resources>
