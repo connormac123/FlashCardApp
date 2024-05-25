@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Front of the flashcard -->
+    <TextView
+        android:id="@+id/flashcard_front"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/front_of_the_flashcard" />
+
+    <!-- Back of the flashcard -->
+    <TextView
+        android:id="@+id/flashcard_back"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/back_of_the_flashcard">
+
+            <!-- Button to flip the flashcard -->
+        <Button
+                android:id="@+id/flip_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/flip"
+                android:onClick="flip" />
+        <Button/>
+    </TextView>
+</LinearLayout>
